@@ -1,0 +1,41 @@
+[Tue May  3 15:59:52 2016] [debug] Your secret passphrase needs to be changed!!!
+[Tue May  3 15:59:52 2016] [debug] GET "/".
+[Tue May  3 15:59:52 2016] [debug] Routing to controller "MyApp::Example" and action "welcome".
+[Tue May  3 15:59:52 2016] [debug] Rendering template "example/welcome.html.ep".
+[Tue May  3 15:59:52 2016] [debug] Rendering template "layouts/default.html.ep".
+[Tue May  3 15:59:52 2016] [debug] 200 OK (0.005041s, 198.373/s).
+[Tue May  3 16:20:14 2016] [debug] Your secret passphrase needs to be changed!!!
+[Tue May  3 16:20:14 2016] [debug] GET "/api/time3".
+[Tue May  3 16:20:14 2016] [debug] Template "not_found.development.html.ep" not found.
+[Tue May  3 16:20:14 2016] [debug] Template "not_found.html.ep" not found.
+[Tue May  3 16:20:14 2016] [debug] Rendering inline template.
+[Tue May  3 16:20:14 2016] [debug] Rendering inline template.
+[Tue May  3 16:20:14 2016] [debug] 404 Not Found (0.017031s, 58.716/s).
+[Tue May  3 16:20:18 2016] [debug] GET "/api/1111".
+[Tue May  3 16:20:18 2016] [debug] Template "not_found.development.html.ep" not found.
+[Tue May  3 16:20:18 2016] [debug] Template "not_found.html.ep" not found.
+[Tue May  3 16:20:18 2016] [debug] Rendering cached inline template.
+[Tue May  3 16:20:18 2016] [debug] Rendering cached inline template.
+[Tue May  3 16:20:19 2016] [debug] 404 Not Found (0.010291s, 97.172/s).
+[Tue May  3 16:21:33 2016] [debug] Your secret passphrase needs to be changed!!!
+[Tue May  3 16:21:33 2016] [debug] GET "/api/1111".
+[Tue May  3 16:21:33 2016] [debug] Template "not_found.development.html.ep" not found.
+[Tue May  3 16:21:33 2016] [debug] Template "not_found.html.ep" not found.
+[Tue May  3 16:21:33 2016] [debug] Rendering inline template.
+[Tue May  3 16:21:33 2016] [debug] Rendering inline template.
+[Tue May  3 16:21:33 2016] [debug] 404 Not Found (0.017961s, 55.676/s).
+[Tue May  3 16:21:42 2016] [debug] GET "/api/time".
+[Tue May  3 16:21:42 2016] [debug] Routing to a callback.
+[Tue May  3 16:21:42 2016] [debug] 200 OK (0.000638s, 1567.398/s).
+[Tue May  3 16:22:12 2016] [debug] GET "/api/clientip".
+[Tue May  3 16:22:12 2016] [debug] Routing to a callback.
+[Tue May  3 16:22:12 2016] [debug] 204 No Content (0.000926s, 1079.914/s).
+[Tue May  3 16:22:17 2016] [debug] GET "/api/clientip".
+[Tue May  3 16:22:17 2016] [debug] Routing to a callback.
+[Tue May  3 16:22:17 2016] [debug] 204 No Content (0.000537s, 1862.197/s).
+[Tue May  3 16:22:22 2016] [debug] GET "/api/clientip.json".
+[Tue May  3 16:22:22 2016] [debug] Routing to a callback.
+[Tue May  3 16:22:22 2016] [debug] 200 OK (0.000843s, 1186.240/s).
+[Tue May  3 16:22:41 2016] [debug] GET "/api/clientip".
+[Tue May  3 16:22:41 2016] [debug] Routing to a callback.
+[Tue May  3 16:22:41 2016] [debug] 200 OK (0.000595s, 1680.672/s).
