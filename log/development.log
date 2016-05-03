@@ -39,3 +39,9 @@
 [Tue May  3 16:22:41 2016] [debug] GET "/api/clientip".
 [Tue May  3 16:22:41 2016] [debug] Routing to a callback.
 [Tue May  3 16:22:41 2016] [debug] 200 OK (0.000595s, 1680.672/s).
+[Tue May  3 16:37:20 2016] [info] Listening at "http://*:3000".
+[Tue May  3 16:37:35 2016] [debug] Your secret passphrase needs to be changed!!!
+[Tue May  3 16:37:35 2016] [debug] GET "/".
+[Tue May  3 16:37:35 2016] [debug] Routing to a callback.
+[Tue May  3 16:37:35 2016] [debug] Rendering template "index.html.ep".
+[Tue May  3 16:37:35 2016] [debug] 200 OK (0.024595s, 40.659/s).
