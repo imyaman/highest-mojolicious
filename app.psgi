@@ -41,4 +41,4 @@ get '/api/clientip' => sub {
 };
 
 
-app->start;
+app->start('daemon', '-l', 'http://*:8080');;
