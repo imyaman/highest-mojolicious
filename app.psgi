@@ -10,7 +10,11 @@ get '/api/time' => sub {
   my $c = shift;
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
   my $t = sprintf("%04d-%02d-%02dT%02d:%02d:%02dZ", $year+1900, $mon+1, $mday, $hour, $min, $sec);
-  $c->render(text => $t);
+  $c->respond_to(
+    json => {json => {time => $t}},
+    xml  => {text => "<time>$t</time>"},
+    any  => {data => $t, status => 204}
+  );
 };
 
 get '/:foo' => sub {
@@ -36,7 +40,7 @@ get '/api/clientip' => sub {
   $c->respond_to(
     json => {json => {clientip => $ip}},
     xml  => {text => "<clientip>$ip</clientip>"},
-    any  => {data => '', status => 204}
+    any  => {data => $ip, status => 204}
   );
 };
 

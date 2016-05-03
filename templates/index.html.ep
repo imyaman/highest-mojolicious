@@ -40,13 +40,9 @@
 
 <h3>curl</h3>
 <pre class="prettyprint" style="font-size: small;">
-curl -X GET -H 'Content-type: application/json' \
+curl -X GET -H 'Accept: application/json' \
   http://highest-mojolicious.youre.space/api/time
-curl -X GET -H 'Content-type: text/html' \
-  http://highest-mojolicious.youre.space/api/time
-curl -X GET -H 'Content-type: text/x-yaml' \
-  http://highest-mojolicious.youre.space/api/time
-curl -X GET -H 'Content-type: text/xml' \
+curl -X GET -H 'Accept: text/xml' \
   http://highest-mojolicious.youre.space/api/time
 </pre>
 
@@ -56,7 +52,7 @@ curl -X GET -H 'Content-type: text/xml' \
 <script>
 $(document).ready(function(){
   $("#btnTime").click(function(){
-    $.get("http://highest-mojolicious.youre.space/api/time", 
+    $.get("http://highest-mojolicious.youre.space/api/time.json", 
       function(data, status){
     $("#hereTime").append(data.time + "<br />");
     });
@@ -66,7 +62,7 @@ $(document).ready(function(){
 <pre class="prettyprint" style="font-size: small;">
 $(document).ready(function(){
   $("#btnTime").click(function(){
-    $.get("http://highest-mojolicious.youre.space/api/time", 
+    $.get("http://highest-mojolicious.youre.space/api/time.json", 
       function(data, status){
     $("#hereTime").append(data.time + "&lt;br /&gt;");
     });

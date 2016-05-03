@@ -45,3 +45,23 @@
 [Tue May  3 16:37:35 2016] [debug] Routing to a callback.
 [Tue May  3 16:37:35 2016] [debug] Rendering template "index.html.ep".
 [Tue May  3 16:37:35 2016] [debug] 200 OK (0.024595s, 40.659/s).
+[Tue May  3 16:49:13 2016] [debug] Your secret passphrase needs to be changed!!!
+[Tue May  3 16:49:13 2016] [debug] GET "/api/time".
+[Tue May  3 16:49:13 2016] [debug] Routing to a callback.
+[Tue May  3 16:49:13 2016] [debug] 204 No Content (0.002394s, 417.711/s).
+[Tue May  3 16:49:27 2016] [debug] GET "/api/time.json".
+[Tue May  3 16:49:27 2016] [debug] Routing to a callback.
+[Tue May  3 16:49:27 2016] [debug] 200 OK (0.002010s, 497.512/s).
+[Tue May  3 16:50:21 2016] [debug] Your secret passphrase needs to be changed!!!
+[Tue May  3 16:50:21 2016] [debug] GET "/api/time".
+[Tue May  3 16:50:21 2016] [debug] Routing to a callback.
+[Tue May  3 16:50:21 2016] [debug] 200 OK (0.006268s, 159.541/s).
+[Tue May  3 16:50:24 2016] [debug] GET "/api/time".
+[Tue May  3 16:50:24 2016] [debug] Routing to a callback.
+[Tue May  3 16:50:24 2016] [debug] 200 OK (0.001113s, 898.473/s).
+[Tue May  3 16:50:42 2016] [debug] GET "/api/time".
+[Tue May  3 16:50:42 2016] [debug] Routing to a callback.
+[Tue May  3 16:50:42 2016] [debug] 204 No Content (0.000748s, 1336.898/s).
+[Tue May  3 16:50:51 2016] [debug] GET "/api/time".
+[Tue May  3 16:50:51 2016] [debug] Routing to a callback.
+[Tue May  3 16:50:51 2016] [debug] 200 OK (0.001055s, 947.867/s).
