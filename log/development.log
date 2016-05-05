@@ -65,3 +65,6 @@
 [Tue May  3 16:50:51 2016] [debug] GET "/api/time".
 [Tue May  3 16:50:51 2016] [debug] Routing to a callback.
 [Tue May  3 16:50:51 2016] [debug] 200 OK (0.001055s, 947.867/s).
+[Wed May  4 13:41:41 2016] [debug] GET "/index2.html".
+[Wed May  4 13:41:41 2016] [debug] Routing to a callback.
+[Wed May  4 13:41:41 2016] [debug] 200 OK (0.028217s, 35.440/s).

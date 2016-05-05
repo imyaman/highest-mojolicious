@@ -75,11 +75,11 @@ $(document).ready(function(){
 $ perl app.psgi</p>
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- highest -->
+<!-- highest-mojolicious -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-6681966312873395"
-     data-ad-slot="6601002462"
+     data-ad-slot="2829950869"
      data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -91,7 +91,7 @@ $ perl app.psgi</p>
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-77215441-1', 'auto');
+  ga('create', 'UA-77215441-2', 'auto');
   ga('send', 'pageview');
 
 </script>
